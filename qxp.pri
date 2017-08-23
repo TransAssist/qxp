@@ -6,6 +6,7 @@ SOURCES +=  \
 HEADERS += \
     $$PWD/square.h \
     $$PWD/circle.h \
-    $$PWD/sample.h
+    $$PWD/sample.h \
+    $$PWD/slib.h
 
 #RESOURCES += \

@@ -20,10 +20,10 @@ SOURCES +=  \
 HEADERS += \
     test/squaretest.h \
     test/circletest.h \
-    test/sampletest.h
+    test/sampletest.h \
+    test/slibtest.h
 
 DISTFILES += \
-    README.md \
-    qxp.pri
+    README.md
 
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
