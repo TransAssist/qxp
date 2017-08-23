@@ -23,6 +23,7 @@ HEADERS += \
     test/sampletest.h
 
 DISTFILES += \
+    README.md \
     qxp.pri
 
 DEFINES += SRCDIR=\\\"$$PWD/\\\"
