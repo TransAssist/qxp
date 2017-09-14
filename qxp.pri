@@ -1,4 +1,6 @@
 #
+QT       += core gui network
+
 SOURCES +=  \
     $$PWD/square.cpp \
     $$PWD/sample.cpp
