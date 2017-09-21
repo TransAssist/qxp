@@ -24,6 +24,9 @@ HEADERS += \
     test/sqxptest.h \
     test/qxptest.h
 
+RESOURCES += \
+    qxpr/qxpr.qrc
+
 DISTFILES += \
     README.md
 
