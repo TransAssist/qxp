@@ -21,7 +21,8 @@ HEADERS += \
     test/squaretest.h \
     test/circletest.h \
     test/sampletest.h \
-    test/slibtest.h
+    test/sqxptest.h \
+    test/qxptest.h
 
 DISTFILES += \
     README.md

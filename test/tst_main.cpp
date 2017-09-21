@@ -3,7 +3,8 @@
 #include "circletest.h"
 #include "squaretest.h"
 #include "sampletest.h"
-#include "slibtest.h"
+#include "qxptest.h"
+#include "sqxptest.h"
 
 int main(){
 
@@ -16,8 +17,11 @@ int main(){
     SampleTest tst_sample;
     QTest::qExec(&tst_sample);
 
-    SlibTest tst_slib;
-    QTest::qExec(&tst_slib);
+    QxpTest tst_qxp;
+    QTest::qExec(&tst_qxp);
+
+    SqxpTest tst_sqxp;
+    QTest::qExec(&tst_sqxp);
 
     return 0;
 }
