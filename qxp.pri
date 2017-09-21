@@ -14,4 +14,5 @@ HEADERS += \
     $$PWD/sqxp.h \
     $$PWD/qxp.h
 
-#RESOURCES += \
+RESOURCES += \
+    qxpr/qxpr.qrc
