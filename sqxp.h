@@ -27,6 +27,16 @@ public:
         QByteArray textData = QJsonDocument(jsonObjSocket).toJson(QJsonDocument::Compact);
         tcpSocket->write(textData);
     }
+//    static void createCacheDirectory(QString cacheDir = "./cache"){
+//        //CreateLocalCacheDirectory
+//        if(!QDir().exists(cacheDir)) {
+//            if(!QDir().mkdir(cacheDir)) {
+//                qDebug("%s %d: Error: QDir().mkdir(appdir)",__FILE__,__LINE__);
+//                QMessageBox::warning(0,"Error","Cache Directory could not be created.");
+//                exit(EXIT_FAILURE);
+//            }
+//        }
+//    }
 };
 
 
